@@ -1,0 +1,55 @@
+.hidden {
+display: none;
+}
+
+.search{
+outline: none;
+}
+.btn__login{
+    padding: 10px 30px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.btn__login:hover{
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
+    transition: 0.3s ease-in-out;
+}
+.modal-content{
+    box-shadow: 0 10px 25px rgba(92,99,105,.2);
+    background: linear-gradient(170deg, rgba(99,112,219,1) 41%, rgba(125,149,200,1) 100%);
+}
+#entry-btn{
+    padding: 10 30px;
+    border: 2px solid #000;
+}
+#entry-btn:hover{
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+#logout-btn{
+    padding: 10px 30px;
+    border: 2px solid #000;
+}
+#logout-btn:hover{
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+#visit-btn{
+    padding: 10px 10px 15px 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background: none;
+}
+#visit-btn:hover{
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.btn__create{
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #0dcb05;
+}
+.btn__create:hover{
+    background-color: #01ff16;
+}

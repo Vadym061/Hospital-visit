@@ -1,0 +1,84 @@
+
+.desk {
+  width: 80%;
+  border: 1px solid #FFFFFF;
+  margin: 20px auto;
+  &__blank-text {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    color: #8f8f8f;
+    margin: 20px;
+  }
+  &__card-block {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    background: aliceblue;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  &__card span{
+    padding: 5px;
+  }
+  &__card h4{
+    text-transform: uppercase;
+  }
+
+  &__desk-header{
+    width: 100%;
+    background: #D6E9FF;
+    padding: 20px;
+
+  }
+  & select {
+    margin: 0 20px;
+    padding: 5px;
+    border: none;
+    outline: none;
+  }
+  & input {
+    margin: 0 20px;
+    padding: 5px;
+    border: none;
+    outline: none;
+  }
+}
+.btn-card {
+  color: black;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 5px;
+  &:hover {
+    border-bottom: none;
+    font-weight: unset;
+  }
+}
+
+.btn-delete {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+.btn-edit {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+}
+.doctorblock{
+  display: flex;
+  flex-direction: column;
+}
+.doctorblock span{
+  padding: 5px;
+}
